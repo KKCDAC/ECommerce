@@ -1,0 +1,4 @@
+#Tue Jan 09 18:10:18 IST 2018
+base.0=F\:\\kishoreworkspace\\androidworkspace\\MCGM Mob App Code\\MCGM Mob App Code\\ECommerce\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

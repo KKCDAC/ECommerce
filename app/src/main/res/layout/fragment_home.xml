@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ecommerce.heady.com.ecommerce.fragments.Home">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.33">
+
+
+        <TextView
+            android:id="@+id/textView_mostViewed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textStyle="bold"
+            android:text="Most Viewed >>" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:layout_margin="5px"
+            android:scrollbars="horizontal"
+            android:id="@+id/recycler_most_viewed">
+
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.33">
+
+
+        <TextView
+            android:id="@+id/textView_mostOrdered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textStyle="bold"
+            android:text="Most Ordered >>" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5px"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal"
+            android:id="@+id/recycler_most_ordered">
+
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.33">
+
+
+        <TextView
+            android:id="@+id/textView_mostShared"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textStyle="bold"
+            android:text="Most Shared >>" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:layout_margin="5px"
+            android:scrollbars="horizontal"
+            android:id="@+id/recycler_most_shared">
+
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    
+
+</LinearLayout>

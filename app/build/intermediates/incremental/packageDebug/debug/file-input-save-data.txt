@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jan 09 18:10:18 IST 2018
+0.baseType=DIRECTORY
+0.base=F\:\\kishoreworkspace\\androidworkspace\\MCGM Mob App Code\\MCGM Mob App Code\\ECommerce\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
